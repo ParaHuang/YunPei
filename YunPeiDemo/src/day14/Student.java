@@ -37,8 +37,6 @@ public class Student {
         gender = g;
     }
 
-
-
     //methods--define as a student, what it can do
     //study, takeExam
     public void study(){    //public:accessible everywhere
