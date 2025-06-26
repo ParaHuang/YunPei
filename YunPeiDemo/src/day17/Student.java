@@ -1,6 +1,10 @@
 package day17;
 
 public class Student {
+    static{
+        System.out.println("this is a static block");
+    }
+
     //field,instance variable,belongs to object
     private int id;
     private String name;

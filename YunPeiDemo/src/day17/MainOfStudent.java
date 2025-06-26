@@ -2,8 +2,11 @@ package day17;
 
 public class MainOfStudent {
     public static void main(String[] args) {
+
         Student.teacherName = "Deng";
-        Student.test1();
+//        Student.test1();
+
+        /*
 
 
 
@@ -35,5 +38,7 @@ public class MainOfStudent {
         Student.test1();
         System.out.println("------------");
         stu3.test3();
+
+         */
     }
 }
