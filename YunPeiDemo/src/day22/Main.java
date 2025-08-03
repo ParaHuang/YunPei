@@ -26,7 +26,6 @@ public class Main {
         youngPeople.haveFun(cellPhone);
         youngPeople.recordGoodMoments(cellPhone);
 
-
     }
 }
 //年轻人->找乐子，
