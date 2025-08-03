@@ -8,6 +8,7 @@ public class Main2 {
         chinese.eat();
         chinese.sleep();
         chinese.kungFu();
+        System.out.println();
 
         American american = new American();
         Indian indian = new Indian();
@@ -29,11 +30,17 @@ public class Main2 {
 
         //具体怎么eat，取决于实际对象是什么
         h1.eat();
-        h1.sleep();
 //        h1.kungFu();//用Human的眼光看待chinese，那么human是不会kungfu的，所以报错
 
         h2.eat();
         h3.eat();
         h4.eat();
+
+        System.out.println();
+
+        h1.sleep();
+        h2.sleep();
+        h3.sleep();
+        h4.sleep();
     }
 }
