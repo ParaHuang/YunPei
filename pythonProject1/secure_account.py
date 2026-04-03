@@ -12,8 +12,6 @@ class SecureAccount:
         SecureAccount.total_accounts += 1
 
     # def setPassword(self,oldPassword,newPassword):
-
-
     def get_balance(self,password):
         if password == self.__password:
             return self.__balance
@@ -26,6 +24,8 @@ class SecureAccount:
             return f"deposit {amount} successfully"
         else:
             return "you have no permission"
+
+
 
 if __name__ == '__main__':
     acc1 = SecureAccount("Jack",123456,1000)
