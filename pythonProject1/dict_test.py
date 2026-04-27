@@ -37,3 +37,6 @@ for k,v in dict.items():
     print(v)
 
 print(str(dict))
+
+# **dict ->         'name': 'Mark', 'gender': 'm', 'class': 'S1'
+
